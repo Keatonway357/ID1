@@ -1,10 +1,26 @@
 body {
     width:100%;
+    background-image:url("../images/abstract-art-original.png");
 }
 
 img{
-    width:30%;
-   }
-p {
     width:60%;
+   }
+img#AJartist{
+    width: 20%;
+    padding: 0 38%;
+}
+p {
+    width:90%;
+}
+h1{
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+h2{
+   font-family: 'Lora', serif;
+    text-align: center; 
+}
+p{
+    padding: 20px; 
 }
