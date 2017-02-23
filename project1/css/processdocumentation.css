@@ -1,0 +1,13 @@
+body {
+    width: 100%;
+    align-content: center;
+}
+title {
+    text-align: center;
+}
+
+img {
+    padding: px 0;
+    width: 50%;
+    margin-left: 15%;
+}
