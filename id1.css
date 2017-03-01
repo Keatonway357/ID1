@@ -2,15 +2,61 @@
 
 body {
     margin: 0;
-
+    background-color: whitesmoke;
+    font-family:sans-serif;
 }
 
-img {
-    width: 80%;
+/* layout */
+
+header {
+    width: 75%;   
+    margin-bottom: 1%;
+    margin-left: 15%;
+    padding-bottom: 1%;
+    border-bottom: 1px dashed grey;
 }
-p a {
-    background-color: coral;
-    color: azure;
+
+section {
+    width: 35%;  
+    position: relative;
+    left: 1.5%;
+    float: right;
+    margin-bottom: 1.5%;
+    padding-left: 2.5%;
+}
+
+footer {
+    clear: right;
+    width: 75%;   
+    margin-bottom: 2%;
+    margin-left: 15%;
+    padding-top: 0%;
+    border-top: 1px
+    dashed grey;
+}
+
+footer h5 {
+    float: left;
+}
+footer p {
+    float: right;
+}
+
+/* link styling */
+a, a:visited {
+    color: blue;
+    font-weight:600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;  
+}
+
+
+footer a, footer a:visited {
+    background-color: purple;
+    color: white;
     padding: 10px 15px;
     margin-left: 5px;
     border-radius: 10px;
@@ -18,16 +64,55 @@ p a {
     text-decoration: none;
 }
 
+footer a:hover {
+    background-color: blue;
+    color: gold;
+    text-decoration: none;
+}
+
+ol {
+        list-style: disc
+    
+    }
+
+
+/* images */
+
+img { 
+    width: 100%;
+}
+
 /* MOBILE LAYOUT */
 
-@media only screen and 
-    (max-width:500px) {
-        body {
-            width: 80%;
-            padding: 2% 2%;
-        }
-        img {
-            width: 80%;
-        }
-        
-}
+@media only screen and (max-width: 500px) {
+
+    header, section, section#about, footer {
+        position: static;
+        width: 80%;
+        margin: 0;
+        padding: 2% 10%;
+        border: none;
+        font-size: 105%;
+    }
+
+    /* text positioning */
+
+    footer h5 {
+        float:none;
+    }
+    footer p {
+        float:none;
+    }
+
+    ol {
+        list-style: circle
+    
+    }
+
+    /* image sizing + positioning */
+
+    img, section#about img {
+        width: 100%;
+    }
+
+   
