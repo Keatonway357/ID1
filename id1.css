@@ -32,7 +32,7 @@ footer {
     margin-left: 15%;
     padding-top: 0%;
     border-top: 1px
-    dashed grey;
+        dashed grey;
 }
 
 footer h5 {
@@ -71,9 +71,9 @@ footer a:hover {
 }
 
 ol {
-        list-style: disc
-    
-    }
+    list-style: disc
+
+}
 
 
 /* images */
@@ -106,7 +106,7 @@ img {
 
     ol {
         list-style: circle
-    
+
     }
 
     /* image sizing + positioning */
@@ -115,4 +115,3 @@ img {
         width: 100%;
     }
 
-   
