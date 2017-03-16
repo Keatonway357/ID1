@@ -22,6 +22,12 @@ header {
     float:none;
 }
 
+#AboutMe {
+    margin-left: 10%;
+    padding-left: 3%;
+    float:none;
+}
+
 section {
     width: 35%;  
     position: relative;
@@ -84,9 +90,15 @@ ol {
 
 /* images */
 
+
 img { 
     width: 100%;
 }
+
+img#kjones2{
+    width: 30%;
+}
+
 
 /* MOBILE LAYOUT */
 
@@ -135,6 +147,6 @@ footer a:hover {
     /* image sizing + positioning */
 
     img, section#about img {
-        width: 70%;
+        width: 100%;
     }
 
