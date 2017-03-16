@@ -13,7 +13,13 @@ header {
     margin-bottom: 1%;
     margin-left: 15%;
     padding-bottom: 1%;
-    border-bottom: 1px dashed grey;
+    border-bottom: 1px dashed grey;    
+}
+
+#projects {
+    margin-left: 10%;
+    padding-left: 3%;
+    float:none;
 }
 
 section {
@@ -95,12 +101,29 @@ img {
         font-size: 105%;
     }
 
+    footer a, footer a:visited {
+    background-color: blue;
+    color: white;
+    padding: 10px 16px;
+    margin-top: 16px;    
+    margin-left: 8px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: blue;
+    color: gold;
+    text-decoration: none;
+}
     /* text positioning */
 
     footer h5 {
         float:none;
     }
     footer p {
+        line-height: 24pt;
         float:none;
     }
 
@@ -112,6 +135,6 @@ img {
     /* image sizing + positioning */
 
     img, section#about img {
-        width: 100%;
+        width: 70%;
     }
 
