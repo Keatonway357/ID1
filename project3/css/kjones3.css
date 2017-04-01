@@ -1,0 +1,21 @@
+/* DESKTOP LAYOUT */
+
+body {
+    margin: 0;
+    background-color: tan;
+    font-family:sans-serif;
+}
+
+/* layout */
+
+header {
+    width: 75%;   
+    margin-bottom: 1%;
+    margin-left: 15%;
+    padding-bottom: 1%;
+    border-bottom: 1px dashed grey;    
+}
+
+/* MOBILE LAYOUT */
+
+@media only screen and (max-width: 500px) {
