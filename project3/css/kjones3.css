@@ -1,11 +1,48 @@
 /* DESKTOP LAYOUT */
 
 body {
+    width: 100%;
     margin: 0;
     background-color: tan;
     font-family:sans-serif;
 }
 
+img#thebeat{
+    width: 100%;
+    height: 500px;
+   }
+
+img#dance{
+    width: 500px; 
+   height: 500px; 
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+img#thestreet{
+    width: 500px;
+    height: 500px;
+}
+
+img#lou{
+    width: 500px;
+    height: 500px
+}
+
+img#dizzy{
+    width: 500px;
+    height: 500px;
+}
+
+img#john{
+    width: 500px;
+    height: 500px
+}
+
+img#miles{
+    width: 500px;
+    height: 500px
+}
 
 img#shack{
     margin-top:auto;
