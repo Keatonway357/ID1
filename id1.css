@@ -55,7 +55,7 @@ footer p {
 }
 
 /* link styling */
-a, a:visited {
+a,a:visited {
     color: navy;
     font-weight:600;
     text-decoration: none;
@@ -84,7 +84,6 @@ footer a:hover {
 
 ol {
     list-style: disc
-
 }
 
 
