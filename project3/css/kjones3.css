@@ -19,6 +19,7 @@ img#dance {
     height: 500px; 
     margin-top: 5%;
     margin-right: 5%;
+    margin-left: 20;
 }
 
 img#thestreet {
@@ -50,6 +51,7 @@ img#miles {
 
 img#shack {
     margin-top:auto;
+    margin-right: 300px;
 }
 
 /* style */
@@ -59,6 +61,7 @@ li {
     width: 70px;
     margin-top: 5%;
     padding: 10px; 20px;
+    margin-left: 100px;
     margin-right: 1px;
     border-radius: 10px;
     text-align: center;
@@ -67,7 +70,10 @@ li {
 }
 
 h1 {
-    font-style: italic
+    margin-left: 100px;
+    font-family: 'Belleza', sans-serif;
+    font-style: italic;
+    font-size: 2.5em
 }
 
 
@@ -85,10 +91,10 @@ header {
 footer a, footer a:visited {
     background-color: blue;
     color: white;
-    padding: 10px; 15px;
-    margin-top: 100%;
-    margin-right: 16px;
-    border-radius: 10px;
+    padding: 10px; 1px;
+    margin-top: 1%;
+    margin-right: 20px;
+    border-radius: 30px;
     text-align: center;
     text-decoration: none;
 }
