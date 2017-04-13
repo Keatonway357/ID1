@@ -12,11 +12,11 @@ body {
 img#thebeat {
     width: 100%;
     height: 500px;
-   }
+}
 
 img#dance {
     width: 500px; 
-   height: 500px; 
+    height: 500px; 
     margin-top: 5%;
     margin-right: 5%;
 }
@@ -39,18 +39,39 @@ img#dizzy {
 img#john {
     width: 500px;
     height: 500px;
-    
+
 }
 
 img#miles {
     width: 500px;
     height: 500px;
-       
+
 }
 
 img#shack {
     margin-top:auto;
 }
+
+/* style */
+
+li {
+    background-color: royalblue;
+    width: 70px;
+    margin-top: 5%;
+    padding: 10px; 20px;
+    margin-right: 1px;
+    border-radius: 10px;
+    text-align: center;
+    list-style-type: none
+
+}
+
+h1 {
+    font-style: italic
+}
+
+
+
 /* layout */
 
 header {
