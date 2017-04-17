@@ -53,19 +53,48 @@ img#shack {
     margin-right: 300px;
 }
 
+img#bigband {
+    width: 100%;
+    height: 500px;
+}
+
+img#africa {
+    width: 100%;
+    height: 500px;
+}
+
+img#african {
+    width: 100%;
+    height: 500px;
+}
+
+img#early {
+    width: 100%;
+    height: 500px;
+}
+
+img#spyro {
+    width: 100%;
+    height: 500px;
+}
+
 /* style */
 
 li {
-    background-color: royalblue;
-    width: 70px;
-    margin-top: 5%;
-    padding: 10px; 20px;
-    margin-left: 100px;
-    margin-right: 1px;
-    border-radius: 10px;
+     background-color: darkblue;
+    border: 6px;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
-    list-style-type: none
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
+li a:hover {
+    color: gold
 }
 
 h1 {
@@ -90,23 +119,21 @@ header {
 footer a, footer a:visited {
     background-color: blue;
     color: white;
-    padding: 10px; 1px;
-    margin-top: 1%;
-    margin-right: 20px;
-    border-radius: 30px;
+    padding: 1.5px; 33px;
+    margin-top: 50%;
+    margin-left: 5px;
+    border-radius: 6px;
     text-align: center;
     text-decoration: none;
 }
 
-footer a: hover {
+footer a, footer a:hover {
     background-color: blue;
     color: gold;
     text-decoration: none;
+    list-style: disc;
 }
 
-ol {
-    list-style: disc
-}
 
 /* MOBILE LAYOUT */
 
