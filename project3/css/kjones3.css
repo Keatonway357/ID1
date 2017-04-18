@@ -24,11 +24,19 @@ img#thebeat {
 img#dance {
     width: 500px; 
     height: 500px; 
-    margin-top: 5%;
-    margin-right: 5%;
+}
+
+img#dance1 {
+    width:  500px;
+    height: 500px;
 }
 
 img#thestreet {
+    width: 500px;
+    height: 500px;
+}
+
+img#bug {
     width: 500px;
     height: 500px;
 }
@@ -86,64 +94,64 @@ img#spyro {
 }
 
 img#louis1 {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     float: left;
     margin-bottom: 20px;
     margin-right: 10px;
 }
 
 img#louis2 {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     float: right;
     margin-left: 10px;
     margin-right: 8px;
 }
 
 img#dizzy1 {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     float: left;
     margin-right: 10px;
     margin-bottom: 20px;
 }
 
 img#dizzy2 {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     float: right;
     margin-left: 10px;
     margin-right: 8px;
 }
 
 img#trane1 {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     float: left;
     margin-right: 10px;
     margin-bottom: 20px;
 }
 
 img#trane2 {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     float: right;
     margin-left: 10px;
     margin-right: 8px;
 }
 
 img#miles1 {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     float: left;
     margin-right: 10px;
     margin-bottom: 20px;
 }
 
 img#miles2 {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     float: right;
     margin-left: 10px;
     margin-right: 8px;
