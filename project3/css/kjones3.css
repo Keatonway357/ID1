@@ -200,6 +200,13 @@ header {
     border-bottom: 1px dashed grey;    
 }
 
+div {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 330px;
+}
+}
+
 footer a, footer a:visited {
     background-color: blue;
     color: white;
