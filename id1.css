@@ -112,21 +112,21 @@ img#kjones2{
     }
 
     footer a, footer a:visited {
-    background-color: blue;
-    color: white;
-    padding: 10px 16px;
-    margin-top: 16px;    
-    margin-left: 8px;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
-}
+        background-color: blue;
+        color: white;
+        padding: 10px 16px;
+        margin-top: 16px;    
+        margin-left: 8px;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
 
-footer a:hover {
-    background-color: blue;
-    color: gold;
-    text-decoration: none;
-}
+    footer a:hover {
+        background-color: blue;
+        color: gold;
+        text-decoration: none;
+    }
     /* text positioning */
 
     footer h5 {
