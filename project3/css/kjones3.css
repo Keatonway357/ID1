@@ -253,8 +253,8 @@ section {
 
 /* Images */
 
-declaration {
-    clear: float;
+img {
+    clear:both;
 }
 
 img#thebeat {
@@ -344,6 +344,7 @@ img#spyro {
 }
 
 img#louis1 {
+    clear:both;
     width: 400px;
     height: 400px;
     margin-bottom: 20px;
@@ -351,6 +352,7 @@ img#louis1 {
 }
 
 img#louis2 {
+    clear:both;
     width: 400px;
     height: 400px;
     margin-left: 10px;
@@ -358,6 +360,7 @@ img#louis2 {
 }
 
 img#dizzy1 {
+    clear:both;
     width: 400px;
     height: 400px;
     margin-right: 10px;
@@ -365,6 +368,7 @@ img#dizzy1 {
 }
 
 img#dizzy2 {
+    clear:both;
     width: 400px;
     height: 400px;
     margin-left: 10px;
@@ -372,6 +376,7 @@ img#dizzy2 {
 }
 
 img#trane1 {
+    clear:both;
     width: 400px;
     height: 400px;
     margin-right: 10px;
@@ -379,6 +384,7 @@ img#trane1 {
 }
 
 img#trane2 {
+    clear:both;
     width: 400px;
     height: 400px;
     margin-left: 10px;
@@ -386,6 +392,7 @@ img#trane2 {
 }
 
 img#miles1 {
+    clear:both;
     width: 400px;
     height: 400px;
     margin-right: 10px;
@@ -393,6 +400,7 @@ img#miles1 {
 }
 
 img#miles2 {
+    clear:both;
     width: 400px;
     height: 400px;
     margin-left: 10px;
